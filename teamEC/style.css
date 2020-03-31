@@ -1,0 +1,46 @@
+//以下が、ログイン画面、パスワード再設定画面、ユーザー情報入力画面のエラーメッセージ、完了メッセージのスタイルシート作成コード
+
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.info {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+
+.success {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	text-align: center;
+}
+
+.warning {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #9F6000;
+	background-color: #FEEFB3;
+}
+
+.error {
+	font-size : 0.8em;
+	margin-left : 3%;
+	width : 84%;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+.error-message {
+	color : red;
+}
